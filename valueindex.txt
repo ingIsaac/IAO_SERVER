@@ -1,0 +1,251 @@
+LIST OF ALL STORAGES and VALUES datapack uses - aid, uid, player and global storage
+
+ATTRIBUTES SUBID:
+1-4 - spells
+3-7 hot cuisine dishes
+15 - potions
+19-25 dungeon chest buff
+50-55 slot system
+99 - ?
+
+GLOBAL:
+11257 - oak
+11258 - oak
+17000 - dimensional portal, top of feru tower
+24500 - os.time, portal system
+24501 - os.time, portal system
+24502 - os.time, portal system
+24510 - os.time, arena counter
+40000-50000 - arena storages, be careful
+55740 - vip system auto installer globalevent
+95000-95100 - boss tp counters (os.time)
+
+action
+700 - anti lure
+2000 - questsystem
+2001 - anni chest
+2002 - poi chest
+2003 - demon oak chest
+2004 - 2006 - arena rewards
+[FREE] - 2038 - poi plagues
+[FREE] - 3010 - unused locked door in province
+5556-5650 - shop
+5934 - locked door without key
+[FREE] - 6000 - unused floor, should be new quest shortcut
+6040, 6041 - pvp arena exit correction
+[FREE] - 7304 - zao tp
+[FREE] - 7305 - zao tp
+7829-7832 - altar tps
+8998 - mirror pool
+8999 - mirror pool
+9877-9884 - poi gates
+10201 - poi mwall
+10202 - poi mwall
+10284 - poi gates switch
+[FREE] - 13102 - grave
+14328 - poi storagedoor
+15111 - altars
+15112 - altars
+15113 - altars
+15114 - altars
+16772 - poi bazir
+16773 - poi bazir
+16774 - poi bazir
+17000-17100 boss tps
+17101 - Frohin diving spot
+17102 - Calassa diving spot
+18000 - dimensional portal, top of feru tower
+19000 - disappearing random reward chest
+20700 - checkpoint tower
+20701 - checkpoint tower
+20702 - checkpoint tower
+20703 - checkpoint tower
+20704 - checkpoint tower
+22444 - cloudwalking spell
+24331 - shortcut poi
+24332 - shortcut poi
+24334 - shortcut poi
+24533 - bazir switches
+[FREE] - 25909 - boss onKill door
+28810-28827 - poi maze teleports
+[REMOVED] - 30000-30010 - mock's fly system, applies to floor id 460
+39511 - poi bazir
+39512 - poi bazir
+42880 - poi stone
+43119 - poi stone back
+40000-50000 - arena storages, be careful
+
+unique
+[FREE] - 1040 - poi plagues step tile
+[FREE] - 1053 - new quest gate opener
+[FREE] - 1054 - new quest portal
+[FREE] - 1055 - new quest portal
+1058 - new quest lever
+1059 - new quest lever
+[FREE] - 1061 - new quest lever
+[FREE] - 1063 - new quest lever
+[FREE] - 1066 - new quest portal
+[FREE] - 1068 - new quest portal
+[FREE] - 1069 - special chest with points
+[FREE] - 1070-1074 - new quest portals
+[FREE] - 1076-1079 - new quest stuff
+[FREE] - 1084 - new quest portal
+[FREE] - 1089 - new quest portal
+[FREE] - 1108-1111 new quest levers
+2378 - chest
+2392 - chest
+2414 - chest
+2487 - chest
+2488 - chest
+2491 - chest
+2492 - chest
+2533 - chest
+3105 - chest
+3106 - chest
+3111 - chest
+3112 - chest
+3116 - chest
+3117 - chest
+3118 - chest
+3124 - chest
+3125 - chest
+4850 - chest
+5000 - chest
+5007 - chest
+[FREE] - 5019 - chest
+5053 - chest
+5054 - chest
+5547 - chest
+6040 - pvp arena lever
+6554 - oak chest, upgrade gem
+7232 - oak enter tile
+7890 - mines chest
+8000-8250 - tp room
+8255 - feru lever
+8256 - feru lever
+8254 - feru tp
+[FREE] - 8933 - bugged oil lever unused now
+10540-10560 - chests
+10571 - poi reward
+10572 - poi reward
+10001-10008 poi thrones
+11195 - chest
+13228 - poi gate
+13229 - poi gate
+13901-13905 - demon oak sqms
+14298 - chest
+14328-14339 - poi gate
+14550 - poi room
+14551 - poi room
+14328 - poi reward room door
+14500 - skygate
+14501 - skygate
+14502 - skygate elevator
+14503 - skygate elevator
+14504-14513 - heaven gates
+14514 - feru tower portal, top floor
+15513 - coral comb
+29268 - demon lever
+29269 - demon lever
+30001-30004 - poi gates
+30015 - anni
+30228 - poi skeleton
+32193 - demon oak tree
+39000 - crystal warlord outfit chest
+39001 - lightbringer taming item
+39002 - oil dispenser
+40000-50000 - arena storages, be careful
+42881 - poi stone
+45927 - new quest switch
+46757 - chest
+51886 - poi ladder
+56221 - poi skeleton
+57357 - chest
+65531 - poi main lever
+65532 - poi stone
+
+storage
+2378 - chest
+2392 - chest
+2414 - chest
+2487 - chest
+2488 - chest
+2491 - chest
+2492 - chest
+2533 - chest
+3105 - chest
+3106 - chest
+3111 - chest
+3112 - chest
+3116 - chest
+3117 - chest
+3118 - chest
+3124 - chest
+3125 - chest
+4850 - chest
+5000 - chest
+5007 - chest
+[FREE] - 5019 - chest
+5053 - chest
+5054 - chest
+5547 - chest
+6040 - pvp arena exit correction
+6100 - token store exhaust
+6554 - oak chest, upgrade gem
+7890 - mines chest
+10080 - checkpoint tower
+10540-10560 - chests
+10001-10008 - poi thrones
+10011-10051 - varkhal addons
+11195 - chest
+14000-14104 - tasksystem
+14298 - chest
+14328 - poi reward room door
+15118-15142 - altars
+15513 - coral comb
+16000-16050 - shop mounts
+16051-16100 - shop services
+17000 - angel areas access
+17100 - helmet of the deep/coconut shrimp bake duration
+17101 - helmet speed
+17102 - rental horse timer
+17103 - anon command agreement
+17110-17130 - special food timer
+20250-20300 - tp room
+22443 - logintips
+22444 - cloudwalking spell
+24331 - shortcut poi
+24332 - shortcut poi
+24334 - shortcut poi
+24359 - os.time, seashell timer
+[FREE] - 25909 - boss onKill door
+30001 - firstitems
+30002 - firstitems
+30015 - anni
+30228 - poi skeleton
+32150 - paw and fur rank (tasksystem)
+32193 - oak
+35712 - oak
+35715 - oak
+35738 - oak
+38551 - oak
+39000 - crystal warlord outfit chest
+39001 - lightbringer taming item
+40000-50000 - arena storages, be careful
+43401-43405 - oak tiles exhaust
+45114 - poi
+46757 - chest
+49950 - oak npc greeting
+49951 - oak npc page
+49952 - oak npc addon
+49985 - stepping oak delay
+50090 - demon oak chests
+56221 - poi skeleton
+57357 - chest
+58478 - hometp talkaction
+60000 - 60200 - advanced onAdvance reward mod
+65000-65100 - tasksystem
+70000 - spellup onAdvance
+80000-80020 - boss arena tp (tasksytem)
+
+100000-200000 - may cause conflict with mock's fly system

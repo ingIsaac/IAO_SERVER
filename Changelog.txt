@@ -1,0 +1,153 @@
+Mystera (5.0) "Prometheus"
+- moved to TFS 1.0, newest client version compatible now
+- moved mods to data
+- reworked all scripts to make distro change unnoticeable (removed unused ones)
+- reworked channels and talkactions
+- reworked door system, all doors should work correctly now
+- reworked vipsystem - rewritten entire code to make it work on 1.0
+- reworked hot cuisine dishes
+- reworked libs
+- added some details near oak area
+- fix: draken area borders
+- fix: it should be impossible to hang something(eg. tapestry or trophy) on walls with lamp
+- fix: now crystal table can be destroyed by weapon
+- fix: misspelled immunities and elements in few monsters
+- fix: furniture kits have accurate names now
+
+- updated taming
+- changed npc storages to variables
+- removed pvp blessing functions (TFS 1.0 doesn't support pvp blessing)
+- removed unused pieces of code in cityguard.lua
+- removed fly system
+- removed login tips and commands related
+- removed upgrade system - unavailable in TFS 1.0 (slot system is still available)
+
+- skipped custom spells - will be added later
+
+- changed shop.lua:
+-- changed stamina service (waiting for stamina functions in TFS 1.0)
+-- skull removal service is now compatible with all TFS revs
+-- resynchronised mounts
+
+Mystera (4.2)
+- moved to 9.86 protocol (should be backwards compatible with 9.83, but may cause debug in some cases)
+- updated items.xml, otb
+- updated schemas(tested only mysql)
+- updated corpses(used Azzkaban's pack with own outfits for assassin, nomad, poacher)
+- updated testing polygon(access 2, /polygon)
+- fixed nomad, fury, ice witch and dark apprentice outfits
+- fixed arena chests with rewards(not walkable now)
+- fixed temple spawnpos
+- fixed amazon camp doors (placed stones on doors which shouldn't be opened)
+- fix: now it's possible to make all addons Varkhal offers (added quaras, to obtain coral comb), not listed in Varkhal's offer will be added later as quest rewards
+- fix: rescripted pvp arena - Duel limit 15 minutes, should be impossible to block/bug now.
+- fix: borders in many areas
+- fix: questsystem - now it shows eg. 18.40 oz as on rl, instead of 18.4
+- fix: gamemaster.xml mod - message is no longer broadcasted when player is on ghost mode
+- fix: gamemaster.xml and promote.lua talkaction - now groups begin with capital letter
+- fix: lava golem is no-longer display-only
+- added barn NPC (sells horse contract for 24 hours, checked onLogin) + easter egg, try talking to a horse
+- added custom help onJoin message(creaturescript)
+- added more shop signs in city - now new players should find shops faster
+- added timer to PoI-oil lever - now you have 5 minutes to cross the bridge with your team.
+- added 4 houses near arenas
+- added 4 safe training spots
+- added more crafting recipes
+- added trophies to task npc's sellable items(reminder: she can also sell you pearls required to use teleports)
+- added new wands and rods:
+-- 30: Dark lord's wand(skull staff, death), diamond rod(diamond sceptre, energy)
+-- 37: crystal Rod(crystal wand, energy)
+-- 40: wand of plague(lich staff, earth)
+-- 48: wand of twilight(lunar staff, energy)
+-- 52: wand of magma(amber staff, fire)
+-- 58: wand of tempest blast(shadow sceptre, energy)
+-- 60: royal wand(blessed sceptre, holy), light rod(light mace, holy)
+-- 70: arcane wand(arcane staff, drown), divine rod(queen's sceptre, holy)
+-- 150: divine wand(snake god's sceptre, holy) - removed atk, def, voc 3, moved wand to mod
+- added /anon - now you can say something on certain channel without showing your name, usage described when you type it without params.
+-- feathures: channel selection, you may choose if your group is visible, you may send message to certain user anonymously
+- changed northern star attributes(now is replacement of arcane staff)
+- changed poi rewards - added 2 rewards more
+- changed golden helmet stats(due to crafting costs)
+- changed Znozel's looktype (I'd like to see in comments if you like this or not)
+- changed bp and bag ids in Tom's store
+- changed token store - items list, now all values are in one script, changed uid to aid, safer code, better error handler, mounts and services available
+- changed underwater system, removed hotd.lua, fixed coconut shrimp bake, now bases on storage and os.time(), affected files: constant lib(underwater table), drown.lua(movement), coconut_shrimp_bake.lua(action), hotd.lua(removed, moveevent)
+- changed randomstats.xml mod - now range attribute is available and chances are more balanced
+- changed NPC - testsailor is now known as Cedrik and has separate code for every area.
+- removed two-handed attribute from all items
+- removed some weapons from weapons.xml (items replaced for wands only to avoid duplicate entry warnings in console)
+- replaced 6 ugly mounts for official 9.83+ ones (do not add more than 47 or it will debug in set outfit dialog, last 3 or will debug on 9.81)
+- Renamed groups to their actual purposes.
+
+Mystera (4.1)
+- fixed allbless module and blessings prices
+- fixed varkhal - now script bases on callback
+- fixed wands and tools npcs
+- fixed svar arena(now it's possible to try again after death)
+- fixed Gnorre~ (scrapper arena boss) - now she doesn't have fast-attack
+- fixed tasks - now summons don't count
+- fixed borders in dragon lair caves
+- fixed oil lever on the way to PoI quest
+- added some level doors near quest areas to avoid making accounts just for profit
+- added oil dispenser in tool shop(for PoI quest), changed \data\actions\scripts\liquids\containers.lua to avoid getting rum from this machine.
+- added some missing roof borders and more eaves
+- changed special houses and guildhalls prices to lower
+- changed dragon scale helmet armor value to lower (it's obtainable in easy quest)
+- changed spawns, added anti-lure on bridges - server is more playable now
+- rebuilt heroes basement
+- rebuilt Enigma temple
+- Renamed project (pretty obvious reason)
+
+EvoRPG (4.0)
+- fixed footsteps on snow(now 100% rl-like)*
+- fixed goblets tile and arena doors issue
+- fixed upgrade system - now 100% compatible with Cyko's random items and Mock's slot system
+- fixed mock's fly system - now corpses and containers land on id 460 without falling x floors below
+- fixed party spells
+- fixed all stairs on hydra mountain
+- fixed outfits: nomad, assassin, all coryms
+- fixed addons/poi thrones storage conflict
+- fixed vipsystem autoinstaller(maxpacket.lua globalevent)
+- fixed !vip (added expiration node)
+- fix: minor questsystem edits
+- removed default tfs npc scripts
+- rebuilt testing polygon
+- added more hidden easter eggs and allusions
+- added /gstorage - param 1 key, param 2 value(if param 2 is empty value will be shown without changing)
+- added /addons - unlocks all addons for player(param), supports spaces and wildcard
+- added "crafting" to NPC Arkulius
+
+- added sky event, affected files:
+-- added dimensional portal on top of feru tower
+-- added more keywords to Neki, Alice, Estalice, Lailene (from now, they also can cast cloudwalking spell on you)
+-- added two cloudwalking spells (utevo tera vis for self, utevo mas tera vis for party members in range, both for ms/ed)
+-- moved portal mod(with mages) to crystal bridge
+-- new/changed monsters: Sky Guardian, mage1, mage2(a.k.a elite sky guardians), Lightbringer, angel(male, female), archangel(male, female), serafin(male, female)
+-- added some items in server_items.xml mod
+* - script ignores some tiles in angel area to avoid bug
+
+EvoRPG (3.0)
+- removed alternative offline training(newest 0.3.7 trunks are compatible, they don't need it anymore)
+- updated map to 9.81(to open it use Zysen's updated RME from Otland -> OT -> Download -> Tools)
+- added some scripts, areas and npcs, authors listed in Credits.txt
+- added amulet of life, pvp arena, svargrond arenas
+- added tp room with task-based rank system
+- added sea serpents area with extra cave(created by me) and coryms
+- added login tips, if you want to disable them pernamently go to login.lua and set "logintipsenabled" to false
+- added promotion NPC(jewel shop, highest floor) and her guardians
+- minor bugfixes
+
+EvoRPG (2.0)
+- added MANY scripts and areas
+- added Anni and Demon Oak quest
+- moved to 9.81 protocol(map is still 9.6)
+
+Ultimate Remake (1.0)
+- heavily edited evolutions map with POI
+- 9.6 protocol(9.8 ready)
+- custom spells pack
+- offline training
+- enchanting altars
+- fixed tools
+- some easter eggs

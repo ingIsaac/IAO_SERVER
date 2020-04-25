@@ -1,0 +1,19 @@
+----- 17/03/2014 09:39:05 - Isaac (127.0.0.1) -----
+Debug Assertion 10.36 Communication.cpp 3709
+Sun Mar 16 23:38:04 2014
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in MEX
+Processor: Dual Core Intel Pentium E5400 @ 2
+Video Card: Intel (R) G41 E
+Last Packet Types: 180 162 159 141 130 161 160 121 121 121
+Last Packet: 023 004 000 000 016 050 000 003 015 021 013 128 003 169 252 003
+Player Position: [300,301,7]
+Player Name: Isaac (Imperial Online)
+Player Action: 048 046 048 046 048 046 048 058 055 049 055 050
+Player.cpp 343: exception occurred, reason:
+Network.cpp 844: exception occurred, reason:
+Control.cpp 1491: exception occurred (Type = 180) (MainWindow = 52104696), reason:
+Communication.cpp 3839: exception occurred (ChatMessageMode = 16), reason:
+Communication.cpp 3709: assertion failed (ChatMessageMode = 16), reason:
+(ChatMessageMode >= CHATMESSAGE_NONE) && (ChatMessageMode < CHATMESSAGE_BEYONDLAST) && (ChatMessageMode != CHATMESSAGE_PRIVATE_TO) && (ChatMessageMode != CHATMESSAGE_NPC_TO) && (ChatMessageMode != CHATMESSAGE_GAMEMASTER_PRIVATE_TO) && (ChatMessageMode != CHATMESSAGE_TUTORIAL_HINT)
+Comment: 
